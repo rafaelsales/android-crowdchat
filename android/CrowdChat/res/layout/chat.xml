@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="6dp" >
+
+    <LinearLayout
+        android:id="@+id/chat_ltMensagens"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/chat_etMensagem"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/chat_etMensagem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="@string/login_nome_hint"
+        android:inputType="textMultiLine"
+        android:textSize="10dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/chat_etMensagem"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/chat_etMensagem"
+        android:text="@string/login_submit_text" 
+        android:onClick="enviarMensagem"/>
+</RelativeLayout>

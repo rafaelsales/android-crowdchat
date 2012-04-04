@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="welcome">Bem-vindo ao Crowd Chat!</string>
+    <string name="app_name">Crowd Chat</string>
+    <string name="sair">Sair</string>
+    <string name="msg_aguarde">Aguarde</string>
+
+    <string name="login_nome_hint">Digite seu nome</string>
+    <string name="login_nome_obrigatorio">O nome é obrigatório</string>
+    <string name="login_submit_text">Entrar</string>
+    
+    <string name="chat_mensagem_hint">Digite uma mensagem</string>
+
+</resources>
